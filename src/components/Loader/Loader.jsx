@@ -1,7 +1,5 @@
-// === Компоненты проекта ===
 import { ThreeDots } from "react-loader-spinner";
 
-// === Стили компонентов проекта ===
 import styles from "./Loader.module.css";
 export default function Loader() {
   return (

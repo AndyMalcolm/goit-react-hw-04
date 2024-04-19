@@ -1,7 +1,5 @@
-// === Библиотечные модули ===
 import Modal from "react-modal";
 
-// === Стили ===
 import styles from "./ImageModal.module.css";
 
 Modal.setAppElement("#modal-root");

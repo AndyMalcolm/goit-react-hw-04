@@ -1,8 +1,5 @@
-// === Библиотечные модули ===
 import { useState, useEffect } from "react";
 import axios from "axios";
-
-// ===Компоненты проекта===
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Loader from "./components/Loader/Loader";
@@ -58,7 +55,6 @@ function App() {
     fetchData(query, page);
   }, [query, page]);
 
-  // === Управление модальным окном ===
   const openModal = (bigImage) => {
     setIsOpen(true);
     setBigImage(bigImage);
